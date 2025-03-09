@@ -10,3 +10,6 @@
     -> write 'clean install' in Goals 
     -> make tick the 'update snapshots' and 'skip tests'
     ->click on 'Apply' and click on 'Run'
+
+* write these properties in 'application.properties' file ()
+    ->
