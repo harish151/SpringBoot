@@ -1,5 +1,6 @@
 package com.project.bookmanagement.repo;
 
+import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,6 +26,10 @@ public class jpaRepository {
 	public String deleteMyBookDetails(int bookId) {
 		myrepo.deleteById(bookId);
 		return "deleted successfully";
+	}
+	
+	public List<MyBook> getAllMyBookDetails(){
+		return myrepo.findAll();
 	}
 	
 	public Optional<MyBook> getBookDetailsByBookId(int bookId){
