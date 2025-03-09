@@ -1,0 +1,12 @@
+* create springboot project
+    -> create project using spring intializer - goto chrome and search (start.spring.io)
+    -> choose options - maven , java , 3.4.3 , write group, write artifact, packaging - 'jar' , java - '23'
+    -> choose dependencies - spring web , spring boot dev tools , mysql driver , spring data jpa
+
+* clean install the pom.xml file
+    -> delete 'target' folder  
+    -> right click on the 'pom.xml' file
+    -> choose (run as->maven build)
+    -> write 'clean install' in Goals 
+    -> make tick the 'update snapshots' and 'skip tests'
+    ->click on 'Apply' and click on 'Run'
