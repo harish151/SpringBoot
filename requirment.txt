@@ -4,7 +4,7 @@
     -> choose dependencies - spring web , spring boot dev tools , mysql driver , spring data jpa
 
 * clean install the pom.xml file
-    -> delete 'target' folder  
+    -> delete 'target' folder  (Note:-'if you delete this folder. it appears again')
     -> right click on the 'pom.xml' file
     -> choose (run as->maven build)
     -> write 'clean install' in Goals 
