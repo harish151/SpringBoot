@@ -1,7 +1,7 @@
 * create springboot project
     -> create project using spring intializer - goto chrome and search (start.spring.io)
     -> choose options - maven , java , 3.4.3 , write group, write artifact, packaging - 'jar' , java - '23'
-    -> choose dependencies - spring web , spring boot dev tools , mysql driver , spring data jpa
+    -> choose dependencies - spring web , spring boot dev tools , mysql driver , spring data jpa , spring security
 
 * clean install the pom.xml file
     -> delete 'target' folder  (Note:-'if you delete this folder. it appears again')
